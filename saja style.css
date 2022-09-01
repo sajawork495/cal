@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+   padding-top: 160px;
+}
+
+#screen{
+   width: 290px;
+   height: 40px;
+   margin-bottom: 20px;
+}
+button{
+   padding: 10px 30px;
+   width: 70px;
+   color: cornsilk;
+    background-color: rgb(104, 134, 103,50%);
+}
+#last{
+ width: 145px;
+}
+ 
+button:hover{
+    cursor: pointer;
+    background-color: rgb(85, 145, 98);
+}

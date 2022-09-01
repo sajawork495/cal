@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="saja style.css">
+</head>
+<body>
+    <div id="calculat">
+    <!--الصف الاول بحتوى ع صف واحد وهوا الشاشة الي رح تظهر فيها النتيجة -->
+
+        <div class="Rows">
+            <input type="text"id="screen">
+        </div>
+        <!--الصف التاني متكون من اربع ازرار من الاالة وهما الارقام 1 و 2 و 3 وعملية الجمع-->
+      <div>
+        <button id="num" onclick="display('1')">1</button>
+        <button id="num" onclick="display('2')">2</button>
+        <button id="num" onclick="display('3')">3</button>
+        <button id="op"  onclick="display('+')">+</button>
+      </div>
+       <br>
+       	<!--الصف التالث متكون من اربع ازرار من الاالة وهما الارقام 4 و 5 و 6 وعملية الطرح-->
+
+        <div>
+          <button id="num" onclick="display('4')">4</button>
+          <button id="num" onclick="display('5')" >5</button>
+          <button id="num" onclick="display('6')" >6</button>
+          <button  id="op" onclick="display('-')">-</button>
+        </div>
+          <br>
+
+          <!-- الصف الرابع متكون من اربع ازرار من الاالة وهما الارقام 7 و 8 و 9 وعملية الضرب-->
+
+     <div>
+        <button id="num" onclick="display('7')">7</button>
+        <button id="num" onclick="display('8')">8</button>
+        <button  id="num" onclick="display('9')">9</button>
+        <button  id="op" onclick="display('*')">*</button>
+      </div>
+        <br>
+
+         <!--الصف الخامس متكون من تالت ازرار من الاالة وهما الارقام 0 و علامة اليساوي و الفاصلة العشرية-->
+         <div>
+          <button id="num" onclick="display('0')" >0</button>
+          <button id="num" onclick="display('.')">.</button>
+          <button  onclick="calculate()">=</button>
+          <button  id="op" onclick="display('/')">/</button>
+        </div>
+          <br>
+          <button id="last" onclick="clearScreen()" >Clear All</button>
+          <button id="num" id="last" onclick=" display('*0.01')">%</button>
+      
+    <!-- الصف السادس بحتوى ع صفين واحد وهوحذف كل النتيجة  والتاني  النسبة المئوية-->
+
+          
+
+    </div>
+    <script src="saja script.js"></script>
+</body>
+</html>
